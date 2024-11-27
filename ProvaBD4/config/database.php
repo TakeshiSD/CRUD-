@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db = 'crud_php';
 $user = 'root';
-$password = 'takeshi1234';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $password);
